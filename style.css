@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+:root{
+--fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+html,body{
+  min-height: 100vh;
+  background-color: rgb(133, 133, 133);
+}
+
+
+section> p{
+  padding-bottom: 0px
+}
+
+header{
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+header > h1{
+  padding-top: 50px;
+  font-variant: small-caps;
+  font-family: var(--fonte2);
+  font-size: 10vw;
+  
+}
+
+header>p{
+  padding-bottom: 50px;
+
+}
+
+header a , footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+
+header a:hover, footer a:hover {
+  text-decoration: underline;
+}
+
+
+.normal{
+  background-color: rgb(227, 226, 226);
+  color: black;
+  box-shadow: inset 1px 1px 9px rgba(30, 30, 30, 0.699);
+  
+}
+
+.img{
+  background-color: rgb(51, 51, 51);
+  color: white;
+  box-shadow: 8px 8px 13px 0px rgba(0, 0, 0, 0.473);
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.img > p{
+  display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 3px black;
+}
+
+section{
+  padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > p{
+  padding-bottom: 2em;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: var(--fonte1);
+  font-weight: bold;
+
+  
+}
+
+footer > p > a {
+  color: rgb(72, 148, 148);
+}
+
+footer > p > a:hover{
+  padding: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgba(72, 148, 148, 0.808); ;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+#img01{
+  background-image: url('imagens/pexels-jess-loiterton-5008169.jpg');
+    background-position: left top;
+}
+
+#img02{
+  background-image: url('imagens/pexels-mikhail-nilov-7676308.jpg');
+  background-position:right bottom  ;
+
+}
